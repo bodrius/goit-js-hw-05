@@ -14,28 +14,26 @@ class Storage {
   constructor(items) {
     this.items = items;
   }
-  getItems(){
-      return this.items;
+  getItems() {
+    return this.items;
   }
 
-  addItem(item){
-      return this.items.push(item);
+  addItem(item) {
+    return this.items.push(item);
   }
 
-  removeItem(item){
-    for (item of items){
-        return items.splice(1,1);
+  removeItem(item) {
+    for (item of items) {
+      return items.splice(1, 1);
     }
-    
   }
-
 }
 
 const storage = new Storage([
   "Нанитоиды",
   "Пролонгер",
   "Железные жупи",
-  "Антигравитатор",
+  "Антигравитатор"
 ]);
 
 const items = storage.getItems();
