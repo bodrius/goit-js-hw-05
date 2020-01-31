@@ -25,7 +25,7 @@ class Storage {
   removeItem(item) {
     const id = this.items.indexOf(item);
     if (id !== -1) {
-      this.items.splice(id, 1 ,);
+      this.items.splice(id, 1);
     }
   }
 }
