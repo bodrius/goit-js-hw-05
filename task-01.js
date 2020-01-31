@@ -16,7 +16,7 @@ console.log(Account.prototype.getInfo); // function
 
 const mango = new Account({
   login: "Mangozedog",
-  email: "mango@dog.woof"
+  email: "mango@dog.woof",
 });
 
 mango.getInfo(); // Login: Mangozedog, Email: mango@dog.woof
